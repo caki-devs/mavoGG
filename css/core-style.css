@@ -34,7 +34,7 @@
 
 body {
   font-family: "helveticaneuemedium";
-  font-size: 16px;
+  font-size: 14px;
 }
 
 h1,
@@ -586,16 +586,16 @@ img {
 }
 
 .main-content-wrapper .header-area .logo {
-  margin-bottom: 10px;
+  margin-bottom: 1px;
   display: block;
 }
 
 .main-content-wrapper .header-area .amado-nav li a {
-  font-size: 14px;
-  text-transform: uppercase;
+  font-size: 18px;
+  text-transform: lowercase;
   position: relative;
   z-index: 1;
-  padding: 20px 0;
+  padding: 8px 0;
   display: block;
   line-height: 0.9;
   color: #131212;
@@ -623,23 +623,23 @@ img {
 
 .main-content-wrapper .header-area .amado-nav li:hover a::after,
 .main-content-wrapper .header-area .amado-nav li:focus a::after {
-  left: -75px;
+  left: -35px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .main-content-wrapper .header-area .amado-nav li:hover a::after,
+  .main-conten-wrapper .header-area .amado-nav li:hover a::after,
   .main-content-wrapper .header-area .amado-nav li:focus a::after {
-    left: -50px;
+    left: -25px;
   }
 }
 
 .main-content-wrapper .header-area .amado-nav li.active a::after {
-  left: -75px;
+  left: -20px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .main-content-wrapper .header-area .amado-nav li.active a::after {
-    left: -50px;
+    left: -20px;
   }
 }
 
@@ -648,31 +648,6 @@ img {
   display: block;
 }
 
-.main-content-wrapper .header-area .cart-fav-search a {
-  display: block;
-  text-transform: uppercase;
-  font-size: 16px;
-  padding: 15px 0;
-  color: #131212;
-  line-height: 1;
-}
-
-.main-content-wrapper .header-area .cart-fav-search a .search-nav {
-  padding-bottom: 0;
-}
-
-.main-content-wrapper .header-area .cart-fav-search a span {
-  color: #9e9e9e;
-}
-
-.main-content-wrapper .header-area .cart-fav-search a img {
-  margin-right: 10px;
-}
-
-.main-content-wrapper .header-area .cart-fav-search a:hover,
-.main-content-wrapper .header-area .cart-fav-search a:focus {
-  color: #4484ce;
-}
 
 .main-content-wrapper .header-area .social-info a {
   color: #b5b5b5;
@@ -680,7 +655,7 @@ img {
 }
 
 .main-content-wrapper .header-area .social-info a i {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .main-content-wrapper .header-area .social-info a:hover,
