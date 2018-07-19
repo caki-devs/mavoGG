@@ -519,7 +519,7 @@ img {
   width: 320px;
   max-width: 320px;
   background-color: #fff;
-  padding: 60px 60px;
+  padding: 2px 30px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -586,7 +586,7 @@ img {
 }
 
 .main-content-wrapper .header-area .logo {
-  margin-bottom: 1px;
+  margin-bottom: 5px;
   display: block;
 }
 
@@ -655,7 +655,7 @@ img {
 }
 
 .main-content-wrapper .header-area .social-info a i {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .main-content-wrapper .header-area .social-info a:hover,
@@ -665,7 +665,7 @@ img {
 
 @media only screen and (max-width: 767px) {
   .main-content-wrapper .header-area .social-info {
-    margin-bottom: 75px;
+    margin-bottom: 30px;
   }
 }
 
