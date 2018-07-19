@@ -414,7 +414,7 @@ img {
   padding: 0 7px;
   font-size: 18px;
   line-height: 56px;
-  background-color: #131212 ;
+  background-color: #131212;
   font-weight: 400;
 }
 
@@ -423,7 +423,7 @@ img {
 .amado-btn:focus {
   font-size: 18px;
   color: #ffffff;
-  background-color:  #4484ce;
+  background-color: #4484ce;
 }
 
 /* :: 4.0 Search Wrapper Area CSS */
@@ -493,7 +493,6 @@ img {
 /* :: 5.0 Welcome Area CSS */
 
 .main-content-wrapper {
- 
   z-index: 1;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
@@ -519,7 +518,7 @@ img {
   width: 320px;
   max-width: 320px;
   background-color: #fff;
-  padding: 0px 30px;
+  padding: 10px 65px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -591,7 +590,7 @@ img {
 }
 
 .main-content-wrapper .header-area .amado-nav li a {
-  font-size: 18px;
+  font-size: 17px;
   text-transform: lowercase;
   position: relative;
   z-index: 1;
@@ -629,17 +628,17 @@ img {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .main-conten-wrapper .header-area .amado-nav li:hover a::after,
   .main-content-wrapper .header-area .amado-nav li:focus a::after {
-    left: -25px;
+    left: -35px;
   }
 }
 
 .main-content-wrapper .header-area .amado-nav li.active a::after {
-  left: -20px;
+  left: -35px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .main-content-wrapper .header-area .amado-nav li.active a::after {
-    left: -20px;
+    left: -35px;
   }
 }
 
@@ -648,14 +647,13 @@ img {
   display: block;
 }
 
-
 .main-content-wrapper .header-area .social-info a {
   color: #b5b5b5;
   display: inline-block;
 }
 
 .main-content-wrapper .header-area .social-info a i {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .main-content-wrapper .header-area .social-info a:hover,
@@ -1143,7 +1141,7 @@ img {
 }
 
 .main-content-wrapper .single-product-area .single_product_thumb .carousel-indicators li.active {
-  border: 2px solid #4484ce;
+  border: 0px solid #4484ce;
 }
 
 .main-content-wrapper .single-product-area .single_product_thumb .carousel-item a {
