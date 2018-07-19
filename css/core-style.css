@@ -519,7 +519,7 @@ img {
   width: 320px;
   max-width: 320px;
   background-color: #fff;
-  padding: 2px 30px;
+  padding: 0px 30px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -529,7 +529,7 @@ img {
     flex: 0 0 280px;
     width: 280px;
     max-width: 280px;
-    padding: 50px;
+    padding: 25px;
   }
 }
 
