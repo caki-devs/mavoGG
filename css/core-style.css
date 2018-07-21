@@ -543,9 +543,9 @@ img {
     z-index: 4000;
     top: 0;
     left: -350px;
-    height: 150%;
+    height: 100%;
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: scroll;
     display: block;
   }
 }
@@ -672,7 +672,7 @@ img {
   width: calc(100% - 320px);
   max-width: calc(100% - 320px);
   overflow-y: auto;
-  height: 1200px;
+  height: 1400px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -683,7 +683,7 @@ img {
     width: calc(100% - 280px);
     max-width: calc(100% - 280px);
     overflow-y: auto;
-    height: 1200px;
+    height: 1500px;
   }
 }
 
@@ -695,7 +695,7 @@ img {
     width: 100%;
     max-width: 100%;
     overflow-y: auto;
-    height: 1200px;
+    height: 1500px;
   }
 }
 
