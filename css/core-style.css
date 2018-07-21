@@ -9,19 +9,16 @@
 @import url(../css/jquery-ui.min.css);
 @import url(../css/nice-select.css);
 @import url(../css/font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Quicksand");
 @font-face {
-  font-family: 'helveticaneuebold';
-  src: url("../fonts/helvetica_neu_bold-webfont.woff2") format("woff2"), url("../fonts/helvetica_neu_bold-webfont.woff") format("woff");
+  font-family: 'Quicksand', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+  src: url("https://fonts.googleapis.com/css?family=Josefin+Sans|Quicksand") format("woff2"), url("https://fonts.googleapis.com/css?family=Josefin+Sans|Quicksand") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'helveticaneuemedium';
-  src: url("../fonts/helveticaneue_medium-webfont.woff2") format("woff2"), url("../fonts/helveticaneue_medium-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 /* :: 2.0 Import All CSS */
 
@@ -33,8 +30,9 @@
 }
 
 body {
-  font-family: "helveticaneuemedium";
-  font-size: 14px;
+  font-family: 'Quicksand', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
 }
 
 h1,
@@ -685,7 +683,7 @@ img {
     width: calc(100% - 280px);
     max-width: calc(100% - 280px);
     overflow-y: auto;
-    height: 1200px;
+    height: 700px;
   }
 }
 
@@ -697,7 +695,7 @@ img {
     width: 100%;
     max-width: 100%;
     overflow-y: auto;
-    height: 1200px;
+    height: 600px;
   }
 }
 
