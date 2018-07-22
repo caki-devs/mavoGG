@@ -513,7 +513,7 @@ img {
   width: 320px;
   max-width: 320px;
   background-color: #fff;
-  padding: 1px 60px;
+  padding: 30px 65px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -542,7 +542,6 @@ img {
     left: -350px;
     height: 100%;
     overflow-x: hidden;
-    
     display: block;
   }
 }
