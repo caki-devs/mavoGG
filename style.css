@@ -1,0 +1,24 @@
+#boda {
+    border-style: solid none none none;
+    color: grey;
+    padding: 25px;
+    border-width: 3.3px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    #boda {
+        border-style: solid none none none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #boda {
+        border-style: solid none none none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #boda {
+        border-style: solid none none none;
+    }
+}
